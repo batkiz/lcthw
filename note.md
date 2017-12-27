@@ -94,3 +94,16 @@ while(TEST) {
     CODE;
 }
 ```
+
+# 练习12：If, Else If, Else
+
+## `if`语句格式
+```
+if(TEST) {
+    CODE;
+} else if(TEST) {
+    CODE;
+} else {
+    CODE;
+}
+```
