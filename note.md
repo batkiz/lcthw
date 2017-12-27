@@ -66,3 +66,21 @@ how to write a Makefile?
 
 ## 位数
 看的出来，这本书还是32位时代的产物（
+
+# 练习9：数组和字符串
+
+
+
+# 练习10：字符串数组和循环
+
+## `for`循环的工作机制
+```
+for(INITIALIZER; TEST; INCREMENTER) {
+    CODE;
+}
+```
+* `INITIALIZER`中是用来初始化循环的代码，这个例子中它是`i = 0`。
+* 接下来会检查`TEST`布尔表达式，如果为`false(0)`则跳过`CODE`，不做任何事情。
+* 执行`CODE`，做它要做的任何事情。
+* 在`CODE`执行之后会执行`INCREMENTER`部分，通常情况会增加一些东西，比如这个例子是`i++`。
+然后跳到第二步继续执行，直到`TEST`为`false(0)`为止。
