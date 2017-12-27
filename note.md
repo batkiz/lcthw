@@ -83,4 +83,14 @@ for(INITIALIZER; TEST; INCREMENTER) {
 * 接下来会检查`TEST`布尔表达式，如果为`false(0)`则跳过`CODE`，不做任何事情。
 * 执行`CODE`，做它要做的任何事情。
 * 在`CODE`执行之后会执行`INCREMENTER`部分，通常情况会增加一些东西，比如这个例子是`i++`。
-然后跳到第二步继续执行，直到`TEST`为`false(0)`为止。
+* 然后跳到第二步继续执行，直到`TEST`为`false(0)`为止。
+
+
+# 练习11：while循环和布尔表达式
+
+## `while`循环
+```
+while(TEST) {
+    CODE;
+}
+```
