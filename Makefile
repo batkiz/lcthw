@@ -1,7 +1,9 @@
-all:
-	ex1 ex3
-
 CFLAGS=-Wall -g
 
+all: ex19
+
+ex19: object.o
+
+
 clean:
-	rm -f ex1 ex3 ex5
+	rm -f ex19
